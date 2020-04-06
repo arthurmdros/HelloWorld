@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "HelloWorld",
+    "slug": "HelloWorld",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#194050"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.dev.HelloWorld",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.dev.HelloWorld",
+      "versionCode": 1
+    }
+  }
+}
